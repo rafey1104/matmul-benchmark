@@ -6,6 +6,8 @@ on:
 parameters:
   partitions:
     - bellis4
+  timeout: 60
+
 
 steps:
   build: |
